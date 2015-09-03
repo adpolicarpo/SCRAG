@@ -36,3 +36,16 @@ e.g.:
     * "percentage of identity" - percentage of identity between sequences of a CVAP
     * "percentage of size difference" - percentage of maximum size difference allowed between sequences of a CVAP
 
+
+# Dependencies
+
+* Python (https://www.python.org/)
+* Biopython (http://www.biopython.org/)
+* BLAST+ executable in the $PATH (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+* MUSCLE (http://www.drive5.com/muscle/) - to perform the MSA
+* ClustalW (http://www.clustal.org/clustal2/) - to perform the distance matrices
+* Numpy (http://www.numpy.org/) - to calculate the statistics
+* Matplotlib (http://matplotlib.org/) - to perform the dot plot
+
+
+Note: If you ar using an older python version that does not support the function "Counter", you can edit the file "gen_analysis.py" and use the marked block instead of that using Counter
