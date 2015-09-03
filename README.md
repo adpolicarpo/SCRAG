@@ -29,7 +29,7 @@ e.g.:
 
 1. Download SCRAG
 2. In the folder "faa_files" put the .faa files to analyze, and in the folder "ffn_files" put the .ffn files. 
-3. In command line, go to the directory with the scripts of the program (where the "run_all.py" file is)
+3. In command line, go to the directory with the scripts of the program, named "scripts" (where the "run_all.py" file is).
 4. Type 'python run_all.py "type_of_analysis" "percentage of identity" "percentage of size difference"' (e.g.: 'python run_all.py 1 80 20')
 
     * "type_of_analysis" - 1 = core genome, 2 = accessory genome
